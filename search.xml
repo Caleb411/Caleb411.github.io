@@ -85,7 +85,8 @@
 <img src="https://cdn.jsdelivr.net/gh/Caleb411/image@main/20201223/nn-1-simple-problem-neuron-weights.2zhuj6hzfn60.png" alt="nn-1-simple-problem-neuron-weights" style="zoom:50%;" />
 
 <p>计算输出的公式如下：</p>
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+
 <p>$$\sum weight_i . input_i = weight1 . input1 + weight2 . input2 + weight3 . input3$$</p>
 <p>现实中我们希望将输出值转化为0到1之间的某个数，使预测结果有意义，这个过程被称为“归一化”。我们将归一化后的输出与我们期望的输出（即训练集中的输出）作对比，这将产生错误，或者称之为与期望值之间的差距（即误差）。然后，我们可以根据错误对神经网络的权重进行微调，并且再次在同样的数据上进行尝试。这个过程可以总结成下面这张图：</p>
 <img src="https://cdn.jsdelivr.net/gh/Caleb411/image@main/20201223/nn-1-training-process.6uz0pye9c340.png" alt="nn-1-training-process" style="zoom:50%;" />
