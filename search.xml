@@ -63,7 +63,7 @@
 <td align="center">1</td>
 <td align="center">0</td>
 <td align="center">1</td>
-<td align="center">0</td>
+<td align="center">1</td>
 </tr>
 <tr>
 <td align="center">数据4</td>
@@ -100,7 +100,7 @@
 <img src="https://cdn.jsdelivr.net/gh/Caleb411/image@main/20201223/nn-1-sigmoid-plot.35xfodc4t4g0.png" alt="nn-1-sigmoid-plot" style="zoom:50%;" />
 
 <p>因此，神经元输出的最终公式变为</p>
-<p>$$Adjustment = error . input . SigmoidCurveGradient(output)$$</p>
+<p>$$Output = \frac{1}{1 + e^{-(\sum weight_i . input_i)}}$$</p>
 <p>我们还可以使用其他归一化函数，但S型曲线的优点是非常简单，并且具有简单的导数，这将非常有利于我们接下来要讲的反向传播。</p>
 <h3 id="反向传播"><a href="#反向传播" class="headerlink" title="反向传播"></a>反向传播</h3><p>在每轮的训练中，我们根据错误调整权重。为了做到这一点，我们引入“调整公式”</p>
 <p>$$Adjustment = error . input . SigmoidCurveGradient(output)$$</p>
@@ -142,7 +142,7 @@
 <h3 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h3><ul>
 <li><a href="https://smalldata.tech/api/to/71f50e36800f1c71de359f15d9e84966">Milo Spencer-Harper</a>的教程，介绍如何使用python创建简单的神经网络。</li>
 <li><a href="https://smalldata.tech/api/to/4a20b748ed0f184cd7c792509e721fbc">Steven Miller</a>撰写的有关构建简单神经网络的教程。</li>
-<li>维基百科有关<a href="https://en.wikipedia.org/wiki/Activation_function">激活功能</a>的文章</li>
+<li>维基百科有关<a href="https://en.wikipedia.org/wiki/Activation_function">激活函数</a>的文章</li>
 </ul>
 ]]></content>
       <categories>
@@ -212,6 +212,119 @@
       </categories>
       <tags>
         <tag>知乎</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>时间序列研究资料汇总</title>
+    <url>/post/5a198660.html</url>
+    <content><![CDATA[<p>这篇文章整理了我在研究生期间所有看过的时间序列相关的研究资料，可以作为入门学习和深入研究时间序列预测或时间序列其他研究方向的参考。</p>
+<a id="more"></a>
+
+<h3 id="预处理"><a href="#预处理" class="headerlink" title="预处理"></a>预处理</h3><ul>
+<li><a href="https://mp.weixin.qq.com/s/56so2p7a4wIgo38nVSR44A">【时间序列】时间序列分解总结</a></li>
+<li><a href="https://blog.csdn.net/FrankieHello/article/details/88069870?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param">时间序列分析之熵（Entropy）_敲代码的quant的博客-CSDN博客</a></li>
+<li><a href="https://machinelearningmastery.com/convert-time-series-supervised-learning-problem-python/">How to Convert a Time Series to a Supervised Learning Problem in Python</a></li>
+<li><a href="https://blog.csdn.net/weixin_40683253/article/details/80878247">降维方法 -简直太全！- 附Python代码（Random Forest、Factor Analysis、corr、PCA、ICA、IOSMA_Not Found黄小包-CSDN博客</a></li>
+<li><a href="https://blog.csdn.net/weixin_40532625/article/details/88797180?ops_request_misc=%7B%22request_id%22:%22160377237019725222401261%22,%22scm%22:%2220140713.130102334.pc_all.%22%7D&request_id=160377237019725222401261&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_v2~rank_v28-8-88797180.pc_first_rank_v2_rank_v28&utm_term=%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97+%E7%86%B5&spm=1018.2118.3001.4187">时间序列复杂性的度量—近似熵和样本熵_weixin_40532625的博客-CSDN博客</a></li>
+<li><a href="https://blog.csdn.net/anaijiabao/article/details/106679271?ops_request_misc=%7B%22request_id%22:%22160377237019725222401261%22,%22scm%22:%2220140713.130102334.pc_all.%22%7D&request_id=160377237019725222401261&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_v2~rank_v28-5-106679271.pc_first_rank_v2_rank_v28&utm_term=%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97+%E7%86%B5&spm=1018.2118.3001.4187">用python做时间序列预测七：时间序列复杂度量化_程序员一一涤生-CSDN博客</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/306315024?utm_source=wechat_session&utm_medium=social&utm_oi=786305254336638976">时序数据的表征学习方法（二）——time2vec - 知乎</a></li>
+<li><a href="https://blog.csdn.net/zhou85xin/article/details/84216393?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.control&dist_request_id=5f2a1e83-a951-471c-850f-fe3efd9e46e8&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.control">时间序列分析(一) 如何判断序列是否平稳_浪不虚传-CSDN博客</a></li>
+<li><a href="https://mp.weixin.qq.com/s?__biz=Mzg3NDUwNTM3MA==&mid=2247484837&idx=2&sn=7a454c8b0368d8fb20a9c9c208b3d097&chksm=cecef050f9b97946babaf6c0109ac692502b0b785d11937df69fac837f5fe87cac4692c2b494&scene=21#wechat_redirect">【TS技术课堂】时间序列统计分析</a></li>
+<li><a href="https://mp.weixin.qq.com/s?__biz=Mzg3NDUwNTM3MA==&mid=2247485154&idx=1&sn=e2b24a279902b6ddee1c3b83a9e3dd56&chksm=cecef317f9b97a01b86245fc7a8797b7618d752fdf6a589733bef3ddd07cb70a30f78b538899&scene=21#wechat_redirect">【TS技术课堂】时间序列特征工程</a></li>
+</ul>
+<h3 id="传统方法"><a href="#传统方法" class="headerlink" title="传统方法"></a>传统方法</h3><ul>
+<li><a href="https://mp.weixin.qq.com/s/QZ_AcfzuB7JQEE6cDz5G1A">【时间序列】自回归模型</a></li>
+<li><a href="https://blog.csdn.net/meng_shangjy/article/details/79714642?utm_medium=distribute.pc_relevant.none-task-blog-baidujs-1">时间序列分析之ARIMA上手-Python_meng_shangjy的博客-CSDN博客</a></li>
+<li><a href="https://mp.weixin.qq.com/s/15HXAIhmtYLbG3MjwEKDSQ">【时间序列】从移动平均到指数平滑</a></li>
+<li><a href="https://blog.csdn.net/foneone/article/details/90141213">时间序列模型（ARIMA和ARMA）完整步骤详述_越努力 越幸运-CSDN博客</a></li>
+<li><a href="https://blog.csdn.net/qq_36558948/article/details/79594999?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.channel_param&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.channel_param">基于时间序列的短期数据预测–ARMA模型的设计与实现_tyxr-CSDN博客</a></li>
+<li><a href="https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/">How to Create an ARIMA Model for Time Series Forecasting in Python</a></li>
+<li><a href="https://www.kaggle.com/thebrownviking20/everything-you-can-do-with-a-time-series/notebook">Everything you can do with a time series | Kaggle</a></li>
+<li><a href="https://mp.weixin.qq.com/s/fMkxWLGSKQm_3fyfLgbQew">【时间序列】详解Prophet模型以及代码示例</a></li>
+<li><a href="https://mp.weixin.qq.com/s/YITnJCB0jZDf6gGe4e6j2w">【时间序列】Holt-Winters 指数平滑方法及其 Python 实践</a></li>
+<li><a href="https://mp.weixin.qq.com/s/yfBJVwP1XddVakKsxRuv3g">【时间序列】时序分析之移动平均-python实战</a></li>
+<li><a href="https://mp.weixin.qq.com/s/N3hCA1ipxZAJUeMTk7xZuQ">【时间序列】时间序列统计分析相关知识的总结与梳理</a></li>
+<li><a href="https://mp.weixin.qq.com/s/QgivTfkAt5Kj54pRsdLBpQ">时间序列丨九种经典的基于「自回归+移动平均」序列预测模型及其 Python 实践</a></li>
+<li><a href="https://mp.weixin.qq.com/s/PAxATtPfvayDEu1VYM5igA">深入浅出：隐马尔科夫模型</a></li>
+<li><a href="https://mp.weixin.qq.com/s/4iB2klu5zHHq6mbT8nwYng">【时间序列】简单易用 &amp; 炒股必看的时序预测基本方法–移动平均（SMA、EMA、WMA）</a></li>
+<li><a href="https://mp.weixin.qq.com/s/2PEEKGmpQAWyEw4bvfRahg">一次指数平滑、二次指数平滑、三次指数平滑（Holt-Winters）</a></li>
+<li><a href="https://mp.weixin.qq.com/s/RDtaD0DPCGzJJfel1kMF_A">动手实战 | Statsmodels 中经典的时间序列预测方法</a></li>
+</ul>
+<h3 id="神经网络"><a href="#神经网络" class="headerlink" title="神经网络"></a>神经网络</h3><ul>
+<li><a href="https://zhuanlan.zhihu.com/p/44121378">【NLP】Transformer详解 - 知乎</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/105638031">使用PyTorch进行LSTM时间序列预测 - 知乎</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/257826109?utm_source=wechat_session&utm_medium=social&utm_oi=786305254336638976">告别RNN，迎接TCN - 知乎</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/161858544">时间序列的LSTM预测 - 知乎</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/63837980?utm_source=wechat_session&utm_medium=social&utm_oi=786305254336638976">基于EMD-SLSTM的家庭用电预测 - 知乎</a></li>
+<li><a href="https://mp.weixin.qq.com/s/pZKrsGo55hlkL32Q9fqcDw">Transformer 超详细解读，一图胜千言</a></li>
+<li><a href="https://mp.weixin.qq.com/s/bROPXK1ysv5m1x0BgZdfcA">Attention 扫盲：注意力机制及其 PyTorch 应用实现</a></li>
+<li><a href="https://mp.weixin.qq.com/s/z2LoefaFlcex2XH5KMvI4A">【串讲总结】序列模型结构之普通堆叠、Encoding-Decoding、Encoding-Forcasting</a></li>
+<li><a href="https://mp.weixin.qq.com/s/GGvlNA383y4vYpbkRzkhNA">【重温序列模型】再回首DeepLearning遇见了Transformer</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/188400946?utm_source=qq">时间卷积网络：时间序列的下一场革命？ - 知乎</a></li>
+<li><a href="https://mp.weixin.qq.com/s/z4D-WCSVWjiPcH5kptWcbA">【重温序列模型】再回首DeepLearning遇见了LSTM和GRU</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/47929039">Tensorflow中的Seq2Seq全家桶 - 知乎</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/232650092">告别RNN，迎来TCN！股市预测任务是时候拥抱新技术了 - 知乎</a><a href="https://zhuanlan.zhihu.com/p/288400654">周期特征的循环编码 - 知乎</a></li>
+<li><a href="https://mp.weixin.qq.com/s/KXX12kXQRLXthYoUOZScuA">【TS深度学习】时间卷积神经网络</a></li>
+<li><a href="https://mp.weixin.qq.com/s/zNFEknTz0ZhCryhCMMCgRg">【图神经网络】GraphSAGE</a></li>
+<li><a href="https://mp.weixin.qq.com/s?__biz=MzIyNjM2MzQyNg==&mid=2247553859&idx=1&sn=2352e56296bdf57320990a0dd4baa575&chksm=e873c20edf044b184692861cc80ca3605a72fc669d5b6e78bb58033ec60fec05d490ecac3669&scene=132#wechat_redirect">Transformers资料汇总！从原理到应用</a></li>
+</ul>
+<h3 id="数据集"><a href="#数据集" class="headerlink" title="数据集"></a>数据集</h3><ul>
+<li><a href="https://machinelearningmastery.com/time-series-datasets-for-machine-learning/">7 Time Series Datasets for Machine Learning</a></li>
+<li><a href="https://www.kaggle.com/sohier/30-years-of-european-wind-generation?select=TS.CF.N2.30yr.csv">30 Years of European Wind Generation | Kaggle</a></li>
+<li><a href="https://mp.weixin.qq.com/s/PLKbpYFjhayad-ppyFedtg">超全必看！开源时间序列数据集整理</a></li>
+</ul>
+<h3 id="其他方法"><a href="#其他方法" class="headerlink" title="其他方法"></a>其他方法</h3><ul>
+<li><a href="https://blog.csdn.net/qq_37177765/article/details/102828997?utm_medium=distribute.pc_relevant_download.none-task-blog-baidujs-5.nonecase&depth_1-utm_source=distribute.pc_relevant_download.none-task-blog-baidujs-5.nonecase">混沌性时间序列的分析方法：EEMD+相空间重构_qq_37177765的博客-CSDN博客</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/32910931">时间序列模型之相空间重构模型 - 知乎</a></li>
+<li><a href="https://blog.csdn.net/qq_30142403/article/details/80554919">时间序列模型之相空间重构_qq_30142403的博客-CSDN博客</a></li>
+</ul>
+<h3 id="文档"><a href="#文档" class="headerlink" title="文档"></a>文档</h3><ul>
+<li><a href="https://www.tensorflow.org/tutorials/structured_data/time_series">Time series forecasting  | TensorFlow Core</a></li>
+<li><a href="https://pyemd.readthedocs.io/en/latest/index.html">PyEMD’s documentation — PyEMD 0.2.9 documentation</a></li>
+<li><a href="https://www.learnlatex.org/en/">Learn LaTeX online for free in beginner friendly lessons | learnlatex.org</a></li>
+</ul>
+<h3 id="博客"><a href="#博客" class="headerlink" title="博客"></a>博客</h3><ul>
+<li><a href="http://yzhao.top/2018/10/27/20181026/">论文阅读综述（关于序列数据） | 洋仔的世界</a></li>
+<li><a href="https://www.cnblogs.com/foley/p/5582358.html">python时间序列分析 - 大熊猫淘沙 - 博客园</a></li>
+<li><a href="https://mp.weixin.qq.com/s/hbql2Fi5OSh1mt6eQAGDBQ">【时间序列】时间序列基本概念总结</a></li>
+<li><a href="https://mp.weixin.qq.com/s/3jlKhxNbViqA32Bguj61ug">PyTorch 常用代码段合集</a></li>
+<li><a href="https://www.linuxcool.com/">Linux命令大全(手册) – 真正好用的Linux命令在线查询网站</a></li>
+<li><a href="https://mp.weixin.qq.com/s/T5YXPnHoA9pe_lKgQ2bWPw">【时间序列】python与时间序列基本教程4(超过1.9万字 代码超过900行 包括49个图)</a></li>
+<li><a href="https://blog.csdn.net/longxinchen_ml/article/details/86533005">(3条消息) 图解Transformer（完整版）_龙心尘-CSDN博客_transformer</a></li>
+<li><a href="https://gitee.com/yuanzhoulvpi/time_series">hz/time_series - 码云 - 开源中国</a><a href="https://mp.weixin.qq.com/s/0fe1I-H9KopPtsaF1U-E3Q">时间序列多步预测的五种策略</a></li>
+<li><a href="https://mp.weixin.qq.com/s/j7H7rngU3RZq_0TLzaCITA">【TS技术课堂】时间序列聚类</a></li>
+<li><a href="https://mp.weixin.qq.com/s/0-P7Q2e1me9_HCX53SAWxA">NumPy 图解教程！</a></li>
+<li><a href="https://mp.weixin.qq.com/s/xHEIqZRFs2WZeE49MoEBvQ">时间序列中如何进行交叉验证</a></li>
+<li><a href="https://mp.weixin.qq.com/s?__biz=Mzg3NDUwNTM3MA==&mid=2247484974&idx=1&sn=d841c644fd9289ad5ec8c52a443463a5&chksm=cecef3dbf9b97acd8a9ededc069851afc00db422cb9be4d155cb2c2a9614b2ee2050dc7ab4d7&scene=21#wechat_redirect">【TS技术课堂】时间序列预测</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/136854657?utm_source=wechat_session&utm_medium=social&utm_oi=786305254336638976">论文画图神器！25个常用Matplotlib图的Python代码，收藏收藏！ - 知乎</a></li>
+</ul>
+<h3 id="论文"><a href="#论文" class="headerlink" title="论文"></a>论文</h3><ul>
+<li><a href="https://zhuanlan.zhihu.com/p/347237171?utm_source=wechat_session&utm_medium=social&utm_oi=786305254336638976">AAAI 2021 | 时间序列论文一览 - 知乎</a></li>
+<li><a href="https://mp.weixin.qq.com/s?__biz=Mzg3NDUwNTM3MA==&mid=2247484901&idx=1&sn=5af38aa7381ed732d612a55042412150&chksm=cecef010f9b9790679981d5e9949ae1a28528e342f2dd91fed0cdce254801487e6db69e8340b&scene=21#wechat_redirect">KDD 2020 | 时间序列相关论文一览（附原文源码）</a></li>
+<li><a href="https://mp.weixin.qq.com/s/umnWLjnLRGn-leEHU6yDyg">WSDM 2021 | 时间序列转化为动态图进行表示</a></li>
+<li><a href="https://mp.weixin.qq.com/s/i3KpgAcqNfb0f4uH-59kug">【时间序列】KDD 2021丨时间序列相关研究论文汇总</a></li>
+<li><a href="https://mp.weixin.qq.com/s/SRiO0IqvIh9u0BgYdiwtQg">【时间序列】ICML 2021丨时间序列相关研究汇总</a></li>
+<li><a href="https://mp.weixin.qq.com/s/IbuRENQ3hYp__As7CN5H-Q">【时间序列】ICDE 2021丨时间序列相关研究论文汇总</a></li>
+<li><a href="https://mp.weixin.qq.com/s/AJr4-cvwDjklpGNfKqbM9A">KDD 2020 | MTGNN: 基于图神经网络的多变量时间序列预测模型</a></li>
+<li><a href="https://mp.weixin.qq.com/s/oa1SkSClNNd1Ni4qyVJrVg">WWW 2021 | 时间序列论文一览</a></li>
+<li><a href="https://mp.weixin.qq.com/s/5FSAy2JhHawR6yTfkWufcw">SDM 2021丨AttnAR：基于注意力和自回归的多元时间序列预测模型</a></li>
+<li><a href="https://mp.weixin.qq.com/s/3u6quUM6V1lcGKAnMVYaPw">NeurIPS 2021 | 时间序列相关论文一览（附原文源码）</a></li>
+<li><a href="https://mp.weixin.qq.com/s/H0s8UZeFSa_QrDfkw6dxDg">AAAI 2021 | 高效长序列预测模型: Informer</a></li>
+</ul>
+<h3 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h3><ul>
+<li><a href="https://space.bilibili.com/1567748478/video">跟李沐学AI的个人空间_哔哩哔哩_bilibili</a></li>
+<li><a href="https://www.bilibili.com/video/BV1J441137V6?spm_id_from=333.999.0.0">李宏毅-Transformer_哔哩哔哩_bilibili</a></li>
+<li><a href="https://www.bilibili.com/video/BV1Hz4y167fD?spm_id_from=333.999.0.0">【合集】《时间序列分析及应用 R语言》系列课程视频_哔哩哔哩_bilibili</a></li>
+<li><a href="https://www.bilibili.com/video/BV1554y147M7?spm_id_from=333.999.0.0">【范文来啦 || SCI论文解析 】全是亮点 || 源于数据高于数据_哔哩哔哩_bilibili</a></li>
+<li><a href="https://www.bilibili.com/video/BV1XT4y1u7ca?spm_id_from=333.999.0.0">【毕导】建议收藏！如何在毕业答辩上一展雄风，成为答辩之神！_哔哩哔哩_bilibili</a></li>
+<li><a href="https://www.bilibili.com/video/BV1Sg4y1q79G?spm_id_from=333.999.0.0">【毕导】学渣的绝地求生！如何快速肝出一篇优秀的学术论文？_哔哩哔哩_bilibili</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>研究</category>
+      </categories>
+      <tags>
+        <tag>机器学习</tag>
       </tags>
   </entry>
 </search>
