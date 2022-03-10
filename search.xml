@@ -21,87 +21,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>南航软件工程专硕考研经验贴</title>
-    <url>/post/802f36c9.html</url>
-    <content><![CDATA[<h3 id="2020年最新情况"><a href="#2020年最新情况" class="headerlink" title="2020年最新情况"></a>2020年最新情况</h3><p>2020考研专硕的<strong>计算机技术</strong>和<strong>软件工程</strong>两个专业合并成了一个专业，即<strong>电子信息</strong>，专业课和学硕考同一份卷子，增加了<strong>计算机组成原理</strong>的考查，今年专硕两个专业合并后继续呈现扩招趋势。</p>
-<a id="more"></a>
-
-<h3 id="我的考研初试情况"><a href="#我的考研初试情况" class="headerlink" title="我的考研初试情况"></a>我的考研初试情况</h3><table>
-<thead>
-<tr>
-<th align="center">政治</th>
-<th align="center">英语</th>
-<th align="center">数学</th>
-<th align="center">专业课922</th>
-<th align="center">总分</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">70+</td>
-<td align="center">65+</td>
-<td align="center">120+</td>
-<td align="center">135+</td>
-<td align="center">390+</td>
-</tr>
-</tbody></table>
-<h3 id="2019年软工专硕招生情况"><a href="#2019年软工专硕招生情况" class="headerlink" title="2019年软工专硕招生情况"></a>2019年软工专硕招生情况</h3><p>国家线于3月15日公布，学院复试名单及细则于3月22日晚上接近9点公布，复试是3月30日和31日两天，比大部分211学校晚一周，所以报考南航软专的同学必须耐下性子，背水一战，否则到后面调剂都来不及了。软专计划招35人，进复试75人，放弃9人，实际招了37人，比例接近1：2，相比去年略有扩招，复试竞争依旧激烈。</p>
-<h3 id="公共课"><a href="#公共课" class="headerlink" title="公共课"></a>公共课</h3><p>初试科目中政治、英语、数学没什么好说的，跟好三个老师就行，按前面的科目顺序分别是：徐涛、朱伟、张宇，其他老师没跟过不好评价，这三位老师都有自己的微博和微信公众号，每天保持关注，出什么课就听什么课，出什么书就看什么书，都尽量去完成。</p>
-<h3 id="专业课"><a href="#专业课" class="headerlink" title="专业课"></a>专业课</h3><p>专业课是<strong>数据结构</strong>和<strong>操作系统</strong>两门。<br>辅导书的话王道和天勤是首选，王道的我两本都买了，天勤只买了数据结构。<br>数据结构方面天勤讲得很详细，适合基础不是太好的同学，有需要可以买一下他们的课程，讲得通俗易懂，算法都是带着一步一步讲的，还有动画演示。题目推荐做王道的，王道上的编程题在考试中出现过类似题。如果你操作系统没学过或者和我一样学了等于没学，真心推荐王道的操作系统课程，听两遍绝对有好处，第一遍重理解，第二遍重记忆。我记得今年和去年分别有一道大题是书上没有视频里却补充到的，有心人一定能做出来。最后我想提醒一下选择题也不要忽视哦，虽然考试不大可能考，但是对于知识的理解还是帮助很大的，后面都有解析，做完可以校对一下。开始复习的时候可以按上面的来，但是后期一定要做真题，真题我认为只需做2012年往后的，真题至少做两遍，相似题目会反复考查，最后从真题涉及的知识点出发再回去翻辅导书查漏补缺。至于考纲中提到的两本参考书可以买来看看，不过个人觉得作用不大。</p>
-<h3 id="复试"><a href="#复试" class="headerlink" title="复试"></a>复试</h3><h4 id="笔试"><a href="#笔试" class="headerlink" title="笔试"></a>笔试</h4><p>考查<strong>英语听力</strong>、<strong>离散数学</strong>、<strong>编译原理</strong>，本科这几样没什么印象的一定要早做准备，最好初试过后就要开始着手。英语听力分三个部分：短对话、篇章和谈话，没有了去年的长对话和短文判断正误，共30道选择题，难度明显加大，语速也很快，所以听力还是要好好练的，推荐星火英语的听力书。离散数学比较简单，编译原理题型固定，都是套路，但题目会很复杂，也会出现往年没考过的但属于基本题型的题目，还是需要多加练习。可以买一下“校研社”的复试资料，里面有近几年的复试真题和参考答案。我还是复试前一天才知道有这个资料的（我用的资料里面只有回忆版，题目并不全）。在此特别感谢那位临时认识的传给我pdf文档的那位同学，考前把近两年真题刷了一遍，考试的时候发现出题风格与往年基本一致。所以近几年的复试真题还是很重要的，至于这个资料在哪买大家可以去打听一下。</p>
-<h4 id="面试"><a href="#面试" class="headerlink" title="面试"></a>面试</h4><p>分了4个组，4个组同时进行，我正好抽到第一个进去，开始有点紧张，一共6个老师。我是坐着的，两个老师坐在我正前方，两个坐在左前方一前一后，两个在右前方一前一后。先是英文自我介绍，接着回答一开始从信封中抽的三道题，三道题按题目难度分为低中高三个档次，第一题是问数据库中有哪些数据模型，我想了一会回答了关系模型，老师居然不确定，还去看了一下答案才告诉我关系模型是对的，但是还有其他模型让我想，后来想不出来就接着下一题了。第二题是问的硬件方面的，电子技术，组成原理，微机原理和系统结构这几门课之间的关系，第三题是有三种颜色变色龙各有多少多少只（具体几只忘了），其中两种颜色的变色龙相遇会变成另一种颜色，请问他们是否会变成同一种颜色。后面两题真的不懂就随便说了点，后来一个老师问了我项目，一个老师问了我对什么方向感兴趣，为什么要选择软件工程，还有一个问了我C语言内存泄漏的知识，还问我如何编一个程序去监测内存泄漏。我都不是回答得特别好，但是整个过程还算顺畅。估计最后我复试差都是因为面试分数太低的原因，一方面是第一个进去老师没有参考可能打分较低，另一方面也可能我确实表现没别人好，所以这方面也没什么值得参考的经验给大家。</p>
-<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>我初试成绩还行，但是复试直接翻了车，综合排名瞬间靠后，不过幸运的是没有被淘汰，不过我也感觉自己尽力了。大家准备初试的时候也可以适当争取些面试能拿得出手的和专业相关的经历，初试过后要继续努力，否则复试也很容易被刷掉。</p>
-<hr>
-<h3 id="补充"><a href="#补充" class="headerlink" title="补充"></a>补充</h3><h4 id="面试题"><a href="#面试题" class="headerlink" title="面试题"></a>面试题</h4><p>针对复试面试的一道题，刚刚在网上搜索了一下，发现了答案，记录在这里以备后人查看。<a href="https://www.nowcoder.com/questionTerminal/7f0379b9f8f44bd3a2bc51ed92642b23?orderByHotValue=1&page=1&onlyReference=false">原文链接</a></p>
-<p>在一座荒岛上有三种变色龙，分别是12只棕色，15只灰色以及16只黑色。当两只不同颜色的变色龙相遇时他们会同时变色为另外一种颜色，例如当1只棕色和1只灰色的变色龙相遇时他们会同时变成黑色的。请问这个荒岛上这些变色龙可能全部变成同一种颜色吗？请详细说明你的分析过程。</p>
-<p>问题换成13，15，16也是一样的思路，就是让其中两种颜色的各一只相遇则这两种颜色的个数各减少一只，相应的另一种颜色的增加两只，然后就会出现某两种颜色的数量一样，让这两种颜色的变色龙全部相遇，则全部变成另一种颜色。  数字都是设置好的，答案是<strong>能变一样颜色</strong>。</p>
-<h4 id="简历"><a href="#简历" class="headerlink" title="简历"></a>简历</h4><p>想补充一下，面试的时候我带简历了，可是进去的时候一位老师直接说把资料都给他，然后我居然就忘记了给每位老师发简历。唉，自己辛苦准备的简历老师都没看到，我想也许这也是我面试低分的原因之一吧。所以大家在面试前一定要记住自己进去后第一件事是发简历，而不要受到一些不确定因素的干扰。不过我面试中途提到了我有简历，结果只是几个老师拿出来看了看，而不是所有人都看到。没有简历老师就不能针对性地提问，对你印象也不会太好，因为大家应该都是有简历的。</p>
-]]></content>
-      <categories>
-        <category>考研</category>
-      </categories>
-      <tags>
-        <tag>经验贴</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>个人博客搭建教程</title>
-    <url>/post/26a0c682.html</url>
-    <content><![CDATA[<p>这篇文章详细记录了基于Hexo+Github搭建个人博客的简要过程，帮助你免费搭建个人博客。</p>
-<a id="more"></a>
-
-<p>下载安装node.js <a href="https://nodejs.org/en/">https://nodejs.org/en/</a></p>
-<p>下载安装git <a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a></p>
-<p>打开命令行窗口 输入<code>npm install hexo-cli -g</code>回车</p>
-<p>在D盘根目录下创建MyBlog文件夹</p>
-<p>打开命令行窗口在MyBlog目录下执行<code>hexo init</code>和<code>npm install</code>两个命令</p>
-<p>继续在命令行中输入<code>hexo s -g</code>本地部署并启动服务</p>
-<p>在浏览器地址栏中输入 <a href="http://localhost:4000/">http://localhost:4000</a> 即可看到博客主页</p>
-<p>Github上创建名字为&lt;Github用户名&gt;.github.io的仓库</p>
-<p>配置ssh秘钥</p>
-<p>对MyBlog根目录下的配置文件_config.yml内容的结尾处作如下修改：</p>
-<figure class="highlight dts"><table><tr><td class="code"><pre><span class="line"><span class="symbol">deploy:</span></span><br><span class="line"><span class="symbol">  type:</span> git</span><br><span class="line"><span class="symbol">  repository:</span> git@github.com:<span class="params">&lt;Github用户名&gt;</span>/<span class="params">&lt;Github用户名&gt;</span>.github.io.git</span><br><span class="line"><span class="symbol">  branch:</span> master</span><br></pre></td></tr></table></figure>
-
-<p>在命令行中输入<code>npm install hexo-deployer-git --save</code>回车</p>
-<p>在命令行中输入<code>hexo g -d</code>部署到github上，部署之前可以使用<code>hexo clean</code>清空缓存</p>
-<p>在阿里云万网购买域名并添加解析设置</p>
-<p>登录GitHub，进入之前创建的仓库，点击settings，设置Custom domain，输入&lt;购买的域名&gt;</p>
-<p>在MyBlog的source目录下新建文件CNAME并修改其中内容为&lt;购买的域名&gt;</p>
-<p>在命令行中输入<code>hexo g -d</code>部署到github上，部署之前可以使用<code>hexo clean</code>清空缓存</p>
-<p>打开命令行窗口在MyBlog目录下执行hexo new &lt;文章名字&gt;</p>
-<p>在MyBlog\source\_posts目录下会生成名称为&lt;文章名字&gt;.md的markdown文件</p>
-<p>打开即可编辑，先通过<code>hexo g -d</code>本地测试再通过<code>hexo g -d</code>远程部署</p>
-<p>每次执行命令部署命令前最好都要通过<code>hexo clean</code>清空缓存</p>
-<p>美化博客：搜索next7相关美化教程</p>
-<p>图床：github + jsdelivr<br>绘图：draw.io</p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>博客</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>【译】用Java构建简单的神经网络</title>
     <url>/post/d4ab2505.html</url>
     <content><![CDATA[<blockquote>
@@ -235,6 +154,87 @@
       </tags>
   </entry>
   <entry>
+    <title>个人博客搭建教程</title>
+    <url>/post/26a0c682.html</url>
+    <content><![CDATA[<p>这篇文章详细记录了基于Hexo+Github搭建个人博客的简要过程，帮助你免费搭建个人博客。</p>
+<a id="more"></a>
+
+<p>下载安装node.js <a href="https://nodejs.org/en/">https://nodejs.org/en/</a></p>
+<p>下载安装git <a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a></p>
+<p>打开命令行窗口 输入<code>npm install hexo-cli -g</code>回车</p>
+<p>在D盘根目录下创建MyBlog文件夹</p>
+<p>打开命令行窗口在MyBlog目录下执行<code>hexo init</code>和<code>npm install</code>两个命令</p>
+<p>继续在命令行中输入<code>hexo s -g</code>本地部署并启动服务</p>
+<p>在浏览器地址栏中输入 <a href="http://localhost:4000/">http://localhost:4000</a> 即可看到博客主页</p>
+<p>Github上创建名字为&lt;Github用户名&gt;.github.io的仓库</p>
+<p>配置ssh秘钥</p>
+<p>对MyBlog根目录下的配置文件_config.yml内容的结尾处作如下修改：</p>
+<figure class="highlight dts"><table><tr><td class="code"><pre><span class="line"><span class="symbol">deploy:</span></span><br><span class="line"><span class="symbol">  type:</span> git</span><br><span class="line"><span class="symbol">  repository:</span> git@github.com:<span class="params">&lt;Github用户名&gt;</span>/<span class="params">&lt;Github用户名&gt;</span>.github.io.git</span><br><span class="line"><span class="symbol">  branch:</span> master</span><br></pre></td></tr></table></figure>
+
+<p>在命令行中输入<code>npm install hexo-deployer-git --save</code>回车</p>
+<p>在命令行中输入<code>hexo g -d</code>部署到github上，部署之前可以使用<code>hexo clean</code>清空缓存</p>
+<p>在阿里云万网购买域名并添加解析设置</p>
+<p>登录GitHub，进入之前创建的仓库，点击settings，设置Custom domain，输入&lt;购买的域名&gt;</p>
+<p>在MyBlog的source目录下新建文件CNAME并修改其中内容为&lt;购买的域名&gt;</p>
+<p>在命令行中输入<code>hexo g -d</code>部署到github上，部署之前可以使用<code>hexo clean</code>清空缓存</p>
+<p>打开命令行窗口在MyBlog目录下执行hexo new &lt;文章名字&gt;</p>
+<p>在MyBlog\source\_posts目录下会生成名称为&lt;文章名字&gt;.md的markdown文件</p>
+<p>打开即可编辑，先通过<code>hexo s -g</code>本地测试再通过<code>hexo g -d</code>远程部署</p>
+<p>每次执行命令部署命令前最好都要通过<code>hexo clean</code>清空缓存</p>
+<p>美化博客：搜索next7相关美化教程</p>
+<p>图床：github + jsdelivr<br>绘图：draw.io</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>南航软件工程专硕考研经验贴</title>
+    <url>/post/802f36c9.html</url>
+    <content><![CDATA[<h3 id="2020年最新情况"><a href="#2020年最新情况" class="headerlink" title="2020年最新情况"></a>2020年最新情况</h3><p>2020考研专硕的<strong>计算机技术</strong>和<strong>软件工程</strong>两个专业合并成了一个专业，即<strong>电子信息</strong>，专业课和学硕考同一份卷子，增加了<strong>计算机组成原理</strong>的考查，今年专硕两个专业合并后继续呈现扩招趋势。</p>
+<a id="more"></a>
+
+<h3 id="我的考研初试情况"><a href="#我的考研初试情况" class="headerlink" title="我的考研初试情况"></a>我的考研初试情况</h3><table>
+<thead>
+<tr>
+<th align="center">政治</th>
+<th align="center">英语</th>
+<th align="center">数学</th>
+<th align="center">专业课922</th>
+<th align="center">总分</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">70+</td>
+<td align="center">65+</td>
+<td align="center">120+</td>
+<td align="center">135+</td>
+<td align="center">390+</td>
+</tr>
+</tbody></table>
+<h3 id="2019年软工专硕招生情况"><a href="#2019年软工专硕招生情况" class="headerlink" title="2019年软工专硕招生情况"></a>2019年软工专硕招生情况</h3><p>国家线于3月15日公布，学院复试名单及细则于3月22日晚上接近9点公布，复试是3月30日和31日两天，比大部分211学校晚一周，所以报考南航软专的同学必须耐下性子，背水一战，否则到后面调剂都来不及了。软专计划招35人，进复试75人，放弃9人，实际招了37人，比例接近1：2，相比去年略有扩招，复试竞争依旧激烈。</p>
+<h3 id="公共课"><a href="#公共课" class="headerlink" title="公共课"></a>公共课</h3><p>初试科目中政治、英语、数学没什么好说的，跟好三个老师就行，按前面的科目顺序分别是：徐涛、朱伟、张宇，其他老师没跟过不好评价，这三位老师都有自己的微博和微信公众号，每天保持关注，出什么课就听什么课，出什么书就看什么书，都尽量去完成。</p>
+<h3 id="专业课"><a href="#专业课" class="headerlink" title="专业课"></a>专业课</h3><p>专业课是<strong>数据结构</strong>和<strong>操作系统</strong>两门。<br>辅导书的话王道和天勤是首选，王道的我两本都买了，天勤只买了数据结构。<br>数据结构方面天勤讲得很详细，适合基础不是太好的同学，有需要可以买一下他们的课程，讲得通俗易懂，算法都是带着一步一步讲的，还有动画演示。题目推荐做王道的，王道上的编程题在考试中出现过类似题。如果你操作系统没学过或者和我一样学了等于没学，真心推荐王道的操作系统课程，听两遍绝对有好处，第一遍重理解，第二遍重记忆。我记得今年和去年分别有一道大题是书上没有视频里却补充到的，有心人一定能做出来。最后我想提醒一下选择题也不要忽视哦，虽然考试不大可能考，但是对于知识的理解还是帮助很大的，后面都有解析，做完可以校对一下。开始复习的时候可以按上面的来，但是后期一定要做真题，真题我认为只需做2012年往后的，真题至少做两遍，相似题目会反复考查，最后从真题涉及的知识点出发再回去翻辅导书查漏补缺。至于考纲中提到的两本参考书可以买来看看，不过个人觉得作用不大。</p>
+<h3 id="复试"><a href="#复试" class="headerlink" title="复试"></a>复试</h3><h4 id="笔试"><a href="#笔试" class="headerlink" title="笔试"></a>笔试</h4><p>考查<strong>英语听力</strong>、<strong>离散数学</strong>、<strong>编译原理</strong>，本科这几样没什么印象的一定要早做准备，最好初试过后就要开始着手。英语听力分三个部分：短对话、篇章和谈话，没有了去年的长对话和短文判断正误，共30道选择题，难度明显加大，语速也很快，所以听力还是要好好练的，推荐星火英语的听力书。离散数学比较简单，编译原理题型固定，都是套路，但题目会很复杂，也会出现往年没考过的但属于基本题型的题目，还是需要多加练习。可以买一下“校研社”的复试资料，里面有近几年的复试真题和参考答案。我还是复试前一天才知道有这个资料的（我用的资料里面只有回忆版，题目并不全）。在此特别感谢那位临时认识的传给我pdf文档的那位同学，考前把近两年真题刷了一遍，考试的时候发现出题风格与往年基本一致。所以近几年的复试真题还是很重要的，至于这个资料在哪买大家可以去打听一下。</p>
+<h4 id="面试"><a href="#面试" class="headerlink" title="面试"></a>面试</h4><p>分了4个组，4个组同时进行，我正好抽到第一个进去，开始有点紧张，一共6个老师。我是坐着的，两个老师坐在我正前方，两个坐在左前方一前一后，两个在右前方一前一后。先是英文自我介绍，接着回答一开始从信封中抽的三道题，三道题按题目难度分为低中高三个档次，第一题是问数据库中有哪些数据模型，我想了一会回答了关系模型，老师居然不确定，还去看了一下答案才告诉我关系模型是对的，但是还有其他模型让我想，后来想不出来就接着下一题了。第二题是问的硬件方面的，电子技术，组成原理，微机原理和系统结构这几门课之间的关系，第三题是有三种颜色变色龙各有多少多少只（具体几只忘了），其中两种颜色的变色龙相遇会变成另一种颜色，请问他们是否会变成同一种颜色。后面两题真的不懂就随便说了点，后来一个老师问了我项目，一个老师问了我对什么方向感兴趣，为什么要选择软件工程，还有一个问了我C语言内存泄漏的知识，还问我如何编一个程序去监测内存泄漏。我都不是回答得特别好，但是整个过程还算顺畅。估计最后我复试差都是因为面试分数太低的原因，一方面是第一个进去老师没有参考可能打分较低，另一方面也可能我确实表现没别人好，所以这方面也没什么值得参考的经验给大家。</p>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>我初试成绩还行，但是复试直接翻了车，综合排名瞬间靠后，不过幸运的是没有被淘汰，不过我也感觉自己尽力了。大家准备初试的时候也可以适当争取些面试能拿得出手的和专业相关的经历，初试过后要继续努力，否则复试也很容易被刷掉。</p>
+<hr>
+<h3 id="补充"><a href="#补充" class="headerlink" title="补充"></a>补充</h3><h4 id="面试题"><a href="#面试题" class="headerlink" title="面试题"></a>面试题</h4><p>针对复试面试的一道题，刚刚在网上搜索了一下，发现了答案，记录在这里以备后人查看。<a href="https://www.nowcoder.com/questionTerminal/7f0379b9f8f44bd3a2bc51ed92642b23?orderByHotValue=1&page=1&onlyReference=false">原文链接</a></p>
+<p>在一座荒岛上有三种变色龙，分别是12只棕色，15只灰色以及16只黑色。当两只不同颜色的变色龙相遇时他们会同时变色为另外一种颜色，例如当1只棕色和1只灰色的变色龙相遇时他们会同时变成黑色的。请问这个荒岛上这些变色龙可能全部变成同一种颜色吗？请详细说明你的分析过程。</p>
+<p>问题换成13，15，16也是一样的思路，就是让其中两种颜色的各一只相遇则这两种颜色的个数各减少一只，相应的另一种颜色的增加两只，然后就会出现某两种颜色的数量一样，让这两种颜色的变色龙全部相遇，则全部变成另一种颜色。  数字都是设置好的，答案是<strong>能变一样颜色</strong>。</p>
+<h4 id="简历"><a href="#简历" class="headerlink" title="简历"></a>简历</h4><p>想补充一下，面试的时候我带简历了，可是进去的时候一位老师直接说把资料都给他，然后我居然就忘记了给每位老师发简历。唉，自己辛苦准备的简历老师都没看到，我想也许这也是我面试低分的原因之一吧。所以大家在面试前一定要记住自己进去后第一件事是发简历，而不要受到一些不确定因素的干扰。不过我面试中途提到了我有简历，结果只是几个老师拿出来看了看，而不是所有人都看到。没有简历老师就不能针对性地提问，对你印象也不会太好，因为大家应该都是有简历的。</p>
+]]></content>
+      <categories>
+        <category>考研</category>
+      </categories>
+      <tags>
+        <tag>经验贴</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>怎么评价朱伟的恋练有词？</title>
     <url>/post/da7b8e17.html</url>
     <content><![CDATA[<h3 id="个人情况"><a href="#个人情况" class="headerlink" title="个人情况"></a>个人情况</h3><p>单词没有专门背过，全程跟着朱伟。从大三上学期开始看朱伟视频，新老版恋练有词各一遍，词组背多分一遍。最后英语一67，感觉自己主要是时间没控制好，导致后来翻译题最后两题来不及写，不然上70还是很有希望的。</p>
@@ -287,6 +287,8 @@
 <li><a href="https://mp.weixin.qq.com/s/4iB2klu5zHHq6mbT8nwYng">【时间序列】简单易用 &amp; 炒股必看的时序预测基本方法–移动平均（SMA、EMA、WMA）</a></li>
 <li><a href="https://mp.weixin.qq.com/s/2PEEKGmpQAWyEw4bvfRahg">一次指数平滑、二次指数平滑、三次指数平滑（Holt-Winters）</a></li>
 <li><a href="https://mp.weixin.qq.com/s/RDtaD0DPCGzJJfel1kMF_A">动手实战 | Statsmodels 中经典的时间序列预测方法</a></li>
+<li><a href="https://mp.weixin.qq.com/s/8Q_THhsLRKBVSX3exSjXbQ">决策树、随机森林、bagging、boosting、Adaboost、GBDT、XGBoost总结</a></li>
+<li><a href="https://mp.weixin.qq.com/s/fWWlPvnh39kvf-LbM8nHMA">硬核详细讲解 贝叶斯回归和高斯过程回归</a></li>
 </ul>
 <h3 id="神经网络"><a href="#神经网络" class="headerlink" title="神经网络"></a>神经网络</h3><ul>
 <li><a href="https://zhuanlan.zhihu.com/p/44121378">【NLP】Transformer详解 - 知乎</a></li>
@@ -305,6 +307,8 @@
 <li><a href="https://mp.weixin.qq.com/s/KXX12kXQRLXthYoUOZScuA">【TS深度学习】时间卷积神经网络</a></li>
 <li><a href="https://mp.weixin.qq.com/s/zNFEknTz0ZhCryhCMMCgRg">【图神经网络】GraphSAGE</a></li>
 <li><a href="https://mp.weixin.qq.com/s?__biz=MzIyNjM2MzQyNg==&mid=2247553859&idx=1&sn=2352e56296bdf57320990a0dd4baa575&chksm=e873c20edf044b184692861cc80ca3605a72fc669d5b6e78bb58033ec60fec05d490ecac3669&scene=132#wechat_redirect">Transformers资料汇总！从原理到应用</a></li>
+<li><a href="https://mp.weixin.qq.com/s/F18BUqIpDxBNat5vqZrwdw">熬了一晚上，我从零实现了Transformer模型，把代码讲给你听</a></li>
+<li><a href="https://mp.weixin.qq.com/s/v5oUVqrUCUf9EtTO3eEazw">【时间序列】DeepAR: 自回归RNN预测时序概率分布</a></li>
 </ul>
 <h3 id="数据集"><a href="#数据集" class="headerlink" title="数据集"></a>数据集</h3><ul>
 <li><a href="https://machinelearningmastery.com/time-series-datasets-for-machine-learning/">7 Time Series Datasets for Machine Learning</a></li>
