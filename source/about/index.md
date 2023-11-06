@@ -12,7 +12,7 @@ type: "about"
 + 研究生：南京航空航天大学
   + 专业：软件工程
   + 研究方向：时间序列数据分析
+
 ***
 
 ![nuaa](https://cdn.jsdelivr.net/gh/Caleb411/image@main/20220316/nuaa.jpg)
-
