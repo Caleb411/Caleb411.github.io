@@ -154,6 +154,52 @@
       </tags>
   </entry>
   <entry>
+    <title>个人博客搭建教程</title>
+    <url>/post/26a0c682.html</url>
+    <content><![CDATA[<p>这篇文章详细记录了基于Hexo+Github搭建个人博客的简要过程，帮助你免费搭建个人博客。</p>
+<span id="more"></span>
+
+<p>下载安装node.js <a href="https://nodejs.org/en/">https://nodejs.org/en/</a></p>
+<p>下载安装git <a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a></p>
+<p>打开命令行窗口 输入<code>npm install hexo-cli -g</code>回车</p>
+<p>在D盘根目录下创建MyBlog文件夹</p>
+<p>打开命令行窗口在MyBlog目录下执行<code>hexo init</code>和<code>npm install</code>两个命令</p>
+<p>继续在命令行中输入<code>hexo s -g</code>本地部署并启动服务</p>
+<p>在浏览器地址栏中输入 <a href="http://localhost:4000/">http://localhost:4000</a> 即可看到博客主页</p>
+<p>Github上创建名字为&lt;Github用户名&gt;.github.io的仓库</p>
+<p>配置ssh秘钥</p>
+<p>对MyBlog根目录下的配置文件_config.yml内容的结尾处作如下修改：</p>
+<figure class="highlight dts"><table><tr><td class="code"><pre><span class="line"><span class="symbol">deploy:</span></span><br><span class="line"><span class="symbol">  type:</span> git</span><br><span class="line"><span class="symbol">  repository:</span> git@github.com:<span class="params">&lt;Github用户名&gt;</span>/<span class="params">&lt;Github用户名&gt;</span>.github.io.git</span><br><span class="line"><span class="symbol">  branch:</span> master</span><br></pre></td></tr></table></figure>
+
+<p>在命令行中输入<code>npm install hexo-deployer-git --save</code>回车</p>
+<p>在命令行中输入<code>hexo g -d</code>部署到github上，部署之前可以使用<code>hexo clean</code>清空缓存</p>
+<p>在阿里云万网购买域名并添加解析设置</p>
+<p>登录GitHub，进入之前创建的仓库，点击settings，设置Custom domain，输入&lt;购买的域名&gt;</p>
+<p>在MyBlog的source目录下新建文件CNAME并修改其中内容为&lt;购买的域名&gt;</p>
+<p>在命令行中输入<code>hexo g -d</code>部署到github上，部署之前可以使用<code>hexo clean</code>清空缓存</p>
+<p>打开命令行窗口在MyBlog目录下执行hexo new &lt;文章名字&gt;</p>
+<p>在MyBlog\source\_posts目录下会生成名称为&lt;文章名字&gt;.md的markdown文件</p>
+<p>打开即可编辑，先通过<code>hexo s -g</code>本地测试再通过<code>hexo g -d</code>远程部署</p>
+<p>每次执行命令部署命令前最好都要通过<code>hexo clean</code>清空缓存</p>
+<p>美化博客：搜索next7相关美化教程</p>
+<p>图床：github + jsdelivr<br>绘图：draw.io</p>
+<hr>
+<p>本地初始目录迁移方法：</p>
+<p>Github上的文件是生成后的目录，切换电脑需要迁移初始目录</p>
+<p>可以使用Git创建新分支的方法同步本地初始目录</p>
+<p>初始目录下自带.gitignore文件，无需自己新建</p>
+<p>如果包含next主题，next目录下的.git目录记得删除，否则上传时会认为是子模块不上传</p>
+<p>使用<code>npm install</code>命令安装所需模块即可，无需再用<code>hexo init</code>初始化</p>
+<p>GIthub仓库可以设置新建分支为默认分支，以后只需维护新建分支即可</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>南航软件工程专硕考研经验贴</title>
     <url>/post/802f36c9.html</url>
     <content><![CDATA[<h3 id="2020年最新情况"><a href="#2020年最新情况" class="headerlink" title="2020年最新情况"></a>2020年最新情况</h3><p>2020考研专硕的<strong>计算机技术</strong>和<strong>软件工程</strong>两个专业合并成了一个专业，即<strong>电子信息</strong>，专业课和学硕考同一份卷子，增加了<strong>计算机组成原理</strong>的考查，今年专硕两个专业合并后继续呈现扩招趋势。</p>
@@ -184,6 +230,7 @@
 <h4 id="面试"><a href="#面试" class="headerlink" title="面试"></a>面试</h4><p>分了4个组，4个组同时进行，我正好抽到第一个进去，开始有点紧张，一共6个老师。我是坐着的，两个老师坐在我正前方，两个坐在左前方一前一后，两个在右前方一前一后。先是英文自我介绍，接着回答一开始从信封中抽的三道题，三道题按题目难度分为低中高三个档次，第一题是问数据库中有哪些数据模型，我想了一会回答了关系模型，老师居然不确定，还去看了一下答案才告诉我关系模型是对的，但是还有其他模型让我想，后来想不出来就接着下一题了。第二题是问的硬件方面的，电子技术，组成原理，微机原理和系统结构这几门课之间的关系，第三题是有三种颜色变色龙各有多少多少只（具体几只忘了），其中两种颜色的变色龙相遇会变成另一种颜色，请问他们是否会变成同一种颜色。后面两题真的不懂就随便说了点，后来一个老师问了我项目，一个老师问了我对什么方向感兴趣，为什么要选择软件工程，还有一个问了我C语言内存泄漏的知识，还问我如何编一个程序去监测内存泄漏。我都不是回答得特别好，但是整个过程还算顺畅。估计最后我复试差都是因为面试分数太低的原因，一方面是第一个进去老师没有参考可能打分较低，另一方面也可能我确实表现没别人好，所以这方面也没什么值得参考的经验给大家。</p>
 <h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>我初试成绩还行，但是复试直接翻了车，综合排名瞬间靠后，不过幸运的是没有被淘汰，不过我也感觉自己尽力了。大家准备初试的时候也可以适当争取些面试能拿得出手的和专业相关的经历，初试过后要继续努力，否则复试也很容易被刷掉。</p>
 <hr>
+<hr>
 <h3 id="补充"><a href="#补充" class="headerlink" title="补充"></a>补充</h3><h4 id="面试题"><a href="#面试题" class="headerlink" title="面试题"></a>面试题</h4><p>针对复试面试的一道题，刚刚在网上搜索了一下，发现了答案，记录在这里以备后人查看。<a href="https://www.nowcoder.com/questionTerminal/7f0379b9f8f44bd3a2bc51ed92642b23?orderByHotValue=1&page=1&onlyReference=false">原文链接</a></p>
 <p>在一座荒岛上有三种变色龙，分别是12只棕色，15只灰色以及16只黑色。当两只不同颜色的变色龙相遇时他们会同时变色为另外一种颜色，例如当1只棕色和1只灰色的变色龙相遇时他们会同时变成黑色的。请问这个荒岛上这些变色龙可能全部变成同一种颜色吗？请详细说明你的分析过程。</p>
 <p>问题换成13，15，16也是一样的思路，就是让其中两种颜色的各一只相遇则这两种颜色的个数各减少一只，相应的另一种颜色的增加两只，然后就会出现某两种颜色的数量一样，让这两种颜色的变色龙全部相遇，则全部变成另一种颜色。  数字都是设置好的，答案是<strong>能变一样颜色</strong>。</p>
@@ -194,6 +241,24 @@
       </categories>
       <tags>
         <tag>经验贴</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>怎么评价朱伟的恋练有词？</title>
+    <url>/post/da7b8e17.html</url>
+    <content><![CDATA[<h3 id="个人情况"><a href="#个人情况" class="headerlink" title="个人情况"></a>个人情况</h3><p>单词没有专门背过，全程跟着朱伟。从大三上学期开始看朱伟视频，新老版恋练有词各一遍，词组背多分一遍。最后英语一67，感觉自己主要是时间没控制好，导致后来翻译题最后两题来不及写，不然上70还是很有希望的。</p>
+<span id="more"></span>
+
+<h3 id="评价"><a href="#评价" class="headerlink" title="评价"></a>评价</h3><p>朱伟老师的恋练有词视频很多人会吐槽废话广告太多，其实那些所谓的“废话”确实在我考研的路上给了我很大的鼓舞和力量；那些广告其实很少，不想听直接跳过就行，不过由于我全程跟朱伟，那些广告对我还是挺有用的，这样我就知道下一阶段该买哪些书。</p>
+<p>视频里绝不仅仅只有单词这么简单，涉及到的内容可以说包揽所有题型，对于语感的提升和英文实力的提高很有用，比自己去找东西背，找题目做效率高太多。不过听过的课要做笔记，课下要经常复盘。半个小时的课我往往要听一个多小时，除了暂停做笔记之外就是当场记住那些补充的东西。</p>
+<p>考研期间有一个能在精神上不断支持自己的老师或同学很重要，所幸有了朱伟老师。我时常看他的微博和微信公众号，没有一次错过他的直播，哪怕是第一天考完结束后他的十分钟打气直播，我也准时看了。那时候我正好从南航自习室看完书回宾馆，一路上我就在听他的直播，周围车水马龙，我的内心一片宁静。直播内容基本就是谈谈心，说说他的近况，再打打气，感觉很幸福~~</p>
+<p>考研结束后，我看了他在武汉举办的520高分盛典直播，他做了一场演讲——<a href="https://www.bilibili.com/video/av73348783">拥抱生活的不确定</a>。是啊，人生就是这样，充满了不确定性，在考研的过程中也不能确定自己一定能考上，但我始终选择相信自己。</p>
+]]></content>
+      <categories>
+        <category>考研</category>
+      </categories>
+      <tags>
+        <tag>知乎</tag>
       </tags>
   </entry>
   <entry>
@@ -312,62 +377,6 @@
       </categories>
       <tags>
         <tag>机器学习</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>个人博客搭建教程</title>
-    <url>/post/26a0c682.html</url>
-    <content><![CDATA[<p>这篇文章详细记录了基于Hexo+Github搭建个人博客的简要过程，帮助你免费搭建个人博客。</p>
-<span id="more"></span>
-
-<p>下载安装node.js <a href="https://nodejs.org/en/">https://nodejs.org/en/</a></p>
-<p>下载安装git <a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a></p>
-<p>打开命令行窗口 输入<code>npm install hexo-cli -g</code>回车</p>
-<p>在D盘根目录下创建MyBlog文件夹</p>
-<p>打开命令行窗口在MyBlog目录下执行<code>hexo init</code>和<code>npm install</code>两个命令</p>
-<p>继续在命令行中输入<code>hexo s -g</code>本地部署并启动服务</p>
-<p>在浏览器地址栏中输入 <a href="http://localhost:4000/">http://localhost:4000</a> 即可看到博客主页</p>
-<p>Github上创建名字为&lt;Github用户名&gt;.github.io的仓库</p>
-<p>配置ssh秘钥</p>
-<p>对MyBlog根目录下的配置文件_config.yml内容的结尾处作如下修改：</p>
-<figure class="highlight dts"><table><tr><td class="code"><pre><span class="line"><span class="symbol">deploy:</span></span><br><span class="line"><span class="symbol">  type:</span> git</span><br><span class="line"><span class="symbol">  repository:</span> git@github.com:<span class="params">&lt;Github用户名&gt;</span>/<span class="params">&lt;Github用户名&gt;</span>.github.io.git</span><br><span class="line"><span class="symbol">  branch:</span> master</span><br></pre></td></tr></table></figure>
-
-<p>在命令行中输入<code>npm install hexo-deployer-git --save</code>回车</p>
-<p>在命令行中输入<code>hexo g -d</code>部署到github上，部署之前可以使用<code>hexo clean</code>清空缓存</p>
-<p>在阿里云万网购买域名并添加解析设置</p>
-<p>登录GitHub，进入之前创建的仓库，点击settings，设置Custom domain，输入&lt;购买的域名&gt;</p>
-<p>在MyBlog的source目录下新建文件CNAME并修改其中内容为&lt;购买的域名&gt;</p>
-<p>在命令行中输入<code>hexo g -d</code>部署到github上，部署之前可以使用<code>hexo clean</code>清空缓存</p>
-<p>打开命令行窗口在MyBlog目录下执行hexo new &lt;文章名字&gt;</p>
-<p>在MyBlog\source\_posts目录下会生成名称为&lt;文章名字&gt;.md的markdown文件</p>
-<p>打开即可编辑，先通过<code>hexo s -g</code>本地测试再通过<code>hexo g -d</code>远程部署</p>
-<p>每次执行命令部署命令前最好都要通过<code>hexo clean</code>清空缓存</p>
-<p>美化博客：搜索next7相关美化教程</p>
-<p>图床：github + jsdelivr<br>绘图：draw.io</p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>博客</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>怎么评价朱伟的恋练有词？</title>
-    <url>/post/da7b8e17.html</url>
-    <content><![CDATA[<h3 id="个人情况"><a href="#个人情况" class="headerlink" title="个人情况"></a>个人情况</h3><p>单词没有专门背过，全程跟着朱伟。从大三上学期开始看朱伟视频，新老版恋练有词各一遍，词组背多分一遍。最后英语一67，感觉自己主要是时间没控制好，导致后来翻译题最后两题来不及写，不然上70还是很有希望的。</p>
-<span id="more"></span>
-
-<h3 id="评价"><a href="#评价" class="headerlink" title="评价"></a>评价</h3><p>朱伟老师的恋练有词视频很多人会吐槽废话广告太多，其实那些所谓的“废话”确实在我考研的路上给了我很大的鼓舞和力量；那些广告其实很少，不想听直接跳过就行，不过由于我全程跟朱伟，那些广告对我还是挺有用的，这样我就知道下一阶段该买哪些书。</p>
-<p>视频里绝不仅仅只有单词这么简单，涉及到的内容可以说包揽所有题型，对于语感的提升和英文实力的提高很有用，比自己去找东西背，找题目做效率高太多。不过听过的课要做笔记，课下要经常复盘。半个小时的课我往往要听一个多小时，除了暂停做笔记之外就是当场记住那些补充的东西。</p>
-<p>考研期间有一个能在精神上不断支持自己的老师或同学很重要，所幸有了朱伟老师。我时常看他的微博和微信公众号，没有一次错过他的直播，哪怕是第一天考完结束后他的十分钟打气直播，我也准时看了。那时候我正好从南航自习室看完书回宾馆，一路上我就在听他的直播，周围车水马龙，我的内心一片宁静。直播内容基本就是谈谈心，说说他的近况，再打打气，感觉很幸福~~</p>
-<p>考研结束后，我看了他在武汉举办的520高分盛典直播，他做了一场演讲——<a href="https://www.bilibili.com/video/av73348783">拥抱生活的不确定</a>。是啊，人生就是这样，充满了不确定性，在考研的过程中也不能确定自己一定能考上，但我始终选择相信自己。</p>
-]]></content>
-      <categories>
-        <category>考研</category>
-      </categories>
-      <tags>
-        <tag>知乎</tag>
       </tags>
   </entry>
 </search>
