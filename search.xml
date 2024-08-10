@@ -21,6 +21,52 @@
 ]]></content>
   </entry>
   <entry>
+    <title>个人博客搭建教程</title>
+    <url>/post/26a0c682.html</url>
+    <content><![CDATA[<p>这篇文章详细记录了基于Hexo+Github搭建个人博客的简要过程，帮助你免费搭建个人博客。</p>
+<span id="more"></span>
+
+<p>下载安装node.js <a href="https://nodejs.org/en/">https://nodejs.org/en/</a></p>
+<p>下载安装git <a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a></p>
+<p>打开命令行窗口 输入<code>npm install hexo-cli -g</code>回车</p>
+<p>在D盘根目录下创建MyBlog文件夹</p>
+<p>打开命令行窗口在MyBlog目录下执行<code>hexo init</code>和<code>npm install</code>两个命令</p>
+<p>继续在命令行中输入<code>hexo s -g</code>本地部署并启动服务</p>
+<p>在浏览器地址栏中输入 <a href="http://localhost:4000/">http://localhost:4000</a> 即可看到博客主页</p>
+<p>Github上创建名字为&lt;Github用户名&gt;.github.io的仓库</p>
+<p>配置ssh秘钥</p>
+<p>对MyBlog根目录下的配置文件_config.yml内容的结尾处作如下修改：</p>
+<figure class="highlight dts"><table><tr><td class="code"><pre><span class="line"><span class="symbol">deploy:</span></span><br><span class="line"><span class="symbol">  type:</span> git</span><br><span class="line"><span class="symbol">  repository:</span> git@github.com:<span class="params">&lt;Github用户名&gt;</span>/<span class="params">&lt;Github用户名&gt;</span>.github.io.git</span><br><span class="line"><span class="symbol">  branch:</span> master</span><br></pre></td></tr></table></figure>
+
+<p>在命令行中输入<code>npm install hexo-deployer-git --save</code>回车</p>
+<p>在命令行中输入<code>hexo g -d</code>部署到github上，部署之前可以使用<code>hexo clean</code>清空缓存</p>
+<p>在阿里云万网购买域名并添加解析设置</p>
+<p>登录GitHub，进入之前创建的仓库，点击settings，设置Custom domain，输入&lt;购买的域名&gt;</p>
+<p>在MyBlog的source目录下新建文件CNAME并修改其中内容为&lt;购买的域名&gt;</p>
+<p>在命令行中输入<code>hexo g -d</code>部署到github上，部署之前可以使用<code>hexo clean</code>清空缓存</p>
+<p>打开命令行窗口在MyBlog目录下执行hexo new &lt;文章名字&gt;</p>
+<p>在MyBlog\source\_posts目录下会生成名称为&lt;文章名字&gt;.md的markdown文件</p>
+<p>打开即可编辑，先通过<code>hexo s -g</code>本地测试再通过<code>hexo g -d</code>远程部署</p>
+<p>每次执行命令部署命令前最好都要通过<code>hexo clean</code>清空缓存</p>
+<p>美化博客：搜索next7相关美化教程</p>
+<p>图床：github + jsdelivr<br>绘图：draw.io</p>
+<hr>
+<p>本地初始目录迁移方法：</p>
+<p>Github上的文件是生成后的目录，切换电脑需要迁移初始目录</p>
+<p>可以使用Git创建新分支的方法同步本地初始目录</p>
+<p>初始目录下自带.gitignore文件，无需自己新建</p>
+<p>如果包含next主题，next目录下的.git目录记得删除，否则上传时会认为是子模块不上传</p>
+<p>使用<code>npm install</code>命令安装所需模块即可，无需再用<code>hexo init</code>初始化</p>
+<p>GIthub仓库可以设置新建分支为默认分支，以后只需维护新建分支即可</p>
+]]></content>
+      <categories>
+        <category>资料</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【译】用Java构建简单的神经网络</title>
     <url>/post/d4ab2505.html</url>
     <content><![CDATA[<blockquote>
@@ -155,52 +201,6 @@
       </tags>
   </entry>
   <entry>
-    <title>个人博客搭建教程</title>
-    <url>/post/26a0c682.html</url>
-    <content><![CDATA[<p>这篇文章详细记录了基于Hexo+Github搭建个人博客的简要过程，帮助你免费搭建个人博客。</p>
-<span id="more"></span>
-
-<p>下载安装node.js <a href="https://nodejs.org/en/">https://nodejs.org/en/</a></p>
-<p>下载安装git <a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a></p>
-<p>打开命令行窗口 输入<code>npm install hexo-cli -g</code>回车</p>
-<p>在D盘根目录下创建MyBlog文件夹</p>
-<p>打开命令行窗口在MyBlog目录下执行<code>hexo init</code>和<code>npm install</code>两个命令</p>
-<p>继续在命令行中输入<code>hexo s -g</code>本地部署并启动服务</p>
-<p>在浏览器地址栏中输入 <a href="http://localhost:4000/">http://localhost:4000</a> 即可看到博客主页</p>
-<p>Github上创建名字为&lt;Github用户名&gt;.github.io的仓库</p>
-<p>配置ssh秘钥</p>
-<p>对MyBlog根目录下的配置文件_config.yml内容的结尾处作如下修改：</p>
-<figure class="highlight dts"><table><tr><td class="code"><pre><span class="line"><span class="symbol">deploy:</span></span><br><span class="line"><span class="symbol">  type:</span> git</span><br><span class="line"><span class="symbol">  repository:</span> git@github.com:<span class="params">&lt;Github用户名&gt;</span>/<span class="params">&lt;Github用户名&gt;</span>.github.io.git</span><br><span class="line"><span class="symbol">  branch:</span> master</span><br></pre></td></tr></table></figure>
-
-<p>在命令行中输入<code>npm install hexo-deployer-git --save</code>回车</p>
-<p>在命令行中输入<code>hexo g -d</code>部署到github上，部署之前可以使用<code>hexo clean</code>清空缓存</p>
-<p>在阿里云万网购买域名并添加解析设置</p>
-<p>登录GitHub，进入之前创建的仓库，点击settings，设置Custom domain，输入&lt;购买的域名&gt;</p>
-<p>在MyBlog的source目录下新建文件CNAME并修改其中内容为&lt;购买的域名&gt;</p>
-<p>在命令行中输入<code>hexo g -d</code>部署到github上，部署之前可以使用<code>hexo clean</code>清空缓存</p>
-<p>打开命令行窗口在MyBlog目录下执行hexo new &lt;文章名字&gt;</p>
-<p>在MyBlog\source\_posts目录下会生成名称为&lt;文章名字&gt;.md的markdown文件</p>
-<p>打开即可编辑，先通过<code>hexo s -g</code>本地测试再通过<code>hexo g -d</code>远程部署</p>
-<p>每次执行命令部署命令前最好都要通过<code>hexo clean</code>清空缓存</p>
-<p>美化博客：搜索next7相关美化教程</p>
-<p>图床：github + jsdelivr<br>绘图：draw.io</p>
-<hr>
-<p>本地初始目录迁移方法：</p>
-<p>Github上的文件是生成后的目录，切换电脑需要迁移初始目录</p>
-<p>可以使用Git创建新分支的方法同步本地初始目录</p>
-<p>初始目录下自带.gitignore文件，无需自己新建</p>
-<p>如果包含next主题，next目录下的.git目录记得删除，否则上传时会认为是子模块不上传</p>
-<p>使用<code>npm install</code>命令安装所需模块即可，无需再用<code>hexo init</code>初始化</p>
-<p>GIthub仓库可以设置新建分支为默认分支，以后只需维护新建分支即可</p>
-]]></content>
-      <categories>
-        <category>资料</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>南航软件工程专硕考研经验贴</title>
     <url>/post/802f36c9.html</url>
     <content><![CDATA[<h3 id="2020年最新情况"><a href="#2020年最新情况" class="headerlink" title="2020年最新情况"></a>2020年最新情况</h3><p>2020考研专硕的<strong>计算机技术</strong>和<strong>软件工程</strong>两个专业合并成了一个专业，即<strong>电子信息</strong>，专业课和学硕考同一份卷子，增加了<strong>计算机组成原理</strong>的考查，今年专硕两个专业合并后继续呈现扩招趋势。</p>
@@ -260,8 +260,8 @@
         <category>想法</category>
       </categories>
       <tags>
-        <tag>知乎</tag>
         <tag>考研</tag>
+        <tag>知乎</tag>
       </tags>
   </entry>
   <entry>
@@ -386,6 +386,8 @@
     <title>我为什么要学日语？</title>
     <url>/post/8b1cf484.html</url>
     <content><![CDATA[<p>今天偶然间翻出标准日本语中级上册的课本，看着上面详细的笔记，思绪一下子回到了我的大学时光。那个时候我还把日语作为自己的第二专业，全面细致的学习自认为绝不亚于科班，虽然没有科班的环境，但那时候学的不亦乐乎，每天坚持学习。</p>
+<span id="more"></span>
+
 <p>当时为什么要学习日语呢，最初是因为对语言学习感兴趣吧，觉得学会一门外语是一件很酷的事情。最早记得我去了新华书店逛的时候发现了一本五十音图入门日语的小册子，上面详细介绍了五十音，简单有趣，适合新人上手，当即就买下了。</p>
 <p>小册子后面有一张沪江网校的学习卡，记得是五十音的网课广告。沪江网校，成为了我后来学习日语的主要途径。网课相比线下课程便宜很多，除了没有真实的学习氛围，课程质量以及课后服务都非常好，我也是认真学习，每天都不断练习。</p>
 <p>后来，大二的我通过了日语N4考试，还记得是去江南大学考的。我的日语水平大概是学完初级上下册，我记得那两本书都快被我翻烂了，至少重复了六七遍，最后顺利通过了考试。</p>
