@@ -4,8 +4,8 @@
 
 # Site
 title: 陈霖の博客
-subtitle: Small me. Big goal.
-description: Baidu
+subtitle: 走出去，去看更大的世界
+description: You live only once.
 keywords:
 author: Chen Lin
 language: zh-CN
@@ -13,7 +13,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: https://cschenlin.top
+url: https://caleb411.github.io
 root: /
 permalink: post/:abbrlink.html
 abbrlink:
